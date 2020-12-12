@@ -1,0 +1,566 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=System"/>
+    <title>Exported database: DataBase</title>
+    <style type="text/css">
+        table
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            border-collapse: collapse;
+        }
+        
+        table tr
+        {
+            background-color: white;
+        }
+        
+        table tr.header
+        {
+            background-color: #DDDDDD;
+        }
+        
+        table tr.title
+        {
+            background-color: #EEEEEE;
+        }
+        
+        table tr td
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.null
+        {
+            color: #999999;
+            text-align: center;
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.separator
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+        }
+        
+        table tr td.rownum
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+            text-align: right;
+        }
+        
+    </style>
+    <body>
+        <table>
+            <tr class="title">
+                <td colspan="10" align="center">Table: Attendance</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>AID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>SID</b><br/>BIGINT
+                </td>
+                <td>
+                    <b>FID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>ClassName</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Subject</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>startTime</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>EndTime</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Date</b><br/>DATETIME
+                </td>
+                <td>
+                    <b>Attendance</b><br/>BOOLEAN
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="right">
+                    91700103129
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    01-10-2020
+                </td>
+                <td align="left">
+                    Y
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Table: Class</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>CID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>ClassName</b><br/>VARCHAR
+                </td>
+                <td>
+                    <b>ClassFaculty</b><br/>INTEGER
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    7TC1
+                </td>
+                <td align="right">
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="right">
+                    2
+                </td>
+                <td align="left">
+                    7TC2
+                </td>
+                <td align="right">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="right">
+                    3
+                </td>
+                <td align="left">
+                    7TC3
+                </td>
+                <td align="right">
+                    3
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="5" align="center">Table: Faculties</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>FID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>FName</b><br/>VARCHAR
+                </td>
+                <td>
+                    <b>FEmailID</b><br/>VARCHAR
+                </td>
+                <td>
+                    <b>FPassword</b><br/>VARCHAR
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    Nilesh Jadav
+                </td>
+                <td align="left">
+                    nilesh@gmail.com
+                </td>
+                <td align="left">
+                    jadav
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="right">
+                    2
+                </td>
+                <td align="left">
+                    Krishna Parmar
+                </td>
+                <td align="left">
+                    krishna@gmail.com
+                </td>
+                <td align="left">
+                    parmar
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="right">
+                    3
+                </td>
+                <td align="left">
+                    Ridima Verma
+                </td>
+                <td align="left">
+                    ridima@gmail.com
+                </td>
+                <td align="left">
+                    verma
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>4</i>
+                </td>
+                <td align="right">
+                    4
+                </td>
+                <td align="left">
+                    Munindra 
+                </td>
+                <td align="left">
+                    munindra@gmail.com
+                </td>
+                <td align="left">
+                    mndr
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="6" align="center">Table: Schedule</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>TID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Week</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>StartTime</b><br/>TIME
+                </td>
+                <td>
+                    <b>EndTime</b><br/>TIME
+                </td>
+                <td>
+                    <b>Subject</b><br/>INTEGER
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    9.3
+                </td>
+                <td align="left">
+                    10.3
+                </td>
+                <td align="right">
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="right">
+                    2
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    10.3
+                </td>
+                <td align="left">
+                    11.3
+                </td>
+                <td align="right">
+                    3
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Table: Students</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>SID</b><br/>BIGINT
+                </td>
+                <td>
+                    <b>SName</b><br/>VARCHAR
+                </td>
+                <td>
+                    <b>Class</b><br/>INTEGER
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    91700103129
+                </td>
+                <td align="left">
+                    Hiral Mashru
+                </td>
+                <td align="right">
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="right">
+                    91700103164
+                </td>
+                <td align="left">
+                    Harsh Mashru
+                </td>
+                <td align="right">
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="right">
+                    91700103040
+                </td>
+                <td align="left">
+                    Priya
+                </td>
+                <td align="right">
+                    2
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Table: Subject</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>SubID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>SubName</b><br/>VARCHAR
+                </td>
+                <td>
+                    <b>SubFaculty</b><br/>INTEGER
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    MC
+                </td>
+                <td align="right">
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="right">
+                    2
+                </td>
+                <td align="left">
+                    AWT
+                </td>
+                <td align="right">
+                    4
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="right">
+                    3
+                </td>
+                <td align="left">
+                    CI
+                </td>
+                <td align="right">
+                    3
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="3" align="center">Table: Week</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>WID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>WName</b><br/>VARCHAR
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    Monday
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="right">
+                    2
+                </td>
+                <td align="left">
+                    Tuesday
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="right">
+                    3
+                </td>
+                <td align="left">
+                    Wednesday
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>4</i>
+                </td>
+                <td align="right">
+                    4
+                </td>
+                <td align="left">
+                    Thursday
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>5</i>
+                </td>
+                <td align="right">
+                    5
+                </td>
+                <td align="left">
+                    Friday
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>6</i>
+                </td>
+                <td align="right">
+                    6
+                </td>
+                <td align="left">
+                    Saturday
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <i>Document generated by SQLiteStudio v3.2.1 on Tue Oct 6 20:06:05 2020</i>
+    </body>
+</html>
